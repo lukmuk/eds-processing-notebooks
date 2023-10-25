@@ -16,7 +16,7 @@ conda create -n hspy175 python=3.10
 conda install hyperspy jupyterlab ipympl scienceplots watermark -c conda-forge
 ```
 
-I got an error when loading the .bcf with h5py. This got fixed by reinstalling h5py:
+I got an error when loading the .bcf file with h5py. This got fixed by reinstalling h5py:
 
 ```console
 conda install h5py --force-reinstall
