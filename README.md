@@ -12,8 +12,10 @@ Install miniconda (or mamba). Then, I ran the following commands:
 conda create -n hspy175 python=3.10
 ```
 
+Main packages:
+
 ```console
-conda install hyperspy jupyterlab ipympl scienceplots watermark -c conda-forge
+conda install hyperspy jupyterlab ipympl watermark -c conda-forge
 ```
 
 I got an error when loading the .bcf with h5py. This got fixed by reinstalling h5py:
@@ -21,3 +23,14 @@ I got an error when loading the .bcf with h5py. This got fixed by reinstalling h
 ```console
 conda install h5py --force-reinstall
 ```
+
+Visualization/Plotting:
+
+```console
+conda install scienceplots glasbey seaborn -c conda-forge
+```
+
+## Notes
+
+- A lot of useful information is provided in the [HyperSpy documentation](https://hyperspy.org/hyperspy-doc/current/index.html)
+- Scikit-learn info on [MSA](https://scikit-learn.org/stable/modules/decomposition.html#decompositions)
