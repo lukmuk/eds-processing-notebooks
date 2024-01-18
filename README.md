@@ -15,7 +15,7 @@ conda create -n hspy175 python=3.10
 Main packages:
 
 ```console
-conda install hyperspy jupyterlab ipympl watermark -c conda-forge
+conda install hyperspy=1.7.5 jupyterlab ipympl watermark -c conda-forge
 ```
 
 I got an error when loading the .bcf file with h5py. This got fixed by reinstalling h5py:
